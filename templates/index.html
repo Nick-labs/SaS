@@ -13,6 +13,7 @@
 {% set jobs = jobs[(page - 1) * 10:page * 10] %}
 {% endif %}
 
+<div class="line"></div>
 {% for item in jobs%}
 <div class="col-md6 border">
     <h1 class="lt">{{item.title}}</h1>
@@ -20,17 +21,17 @@
     <div class="rt bt">
         <a href="/job/{{ item.id }}" class="btn btn-primary">Подробнее</a>
 
-    {% if current_user.is_authenticated and current_user == item.user %}
+        {% if current_user.is_authenticated and current_user == item.user %}
         <a href="/jobs/{{ item.id }}" class="btn btn-warning">
             Изменить
         </a>
         <a href="/jobs_delete/{{ item.id }}" class="btn btn-danger">
             Удалить
         </a>
-    {% endif %}
+        {% endif %}
     </div>
-
 </div>
+<div class="line"></div>
 {% endfor %}
 
 <div class="ct">

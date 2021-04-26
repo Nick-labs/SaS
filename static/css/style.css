@@ -1,3 +1,10 @@
+body {
+ background-color: #EDE4C9;
+
+}
+
+#b { border-color: #F00;}
+
 .jjob {
     color: green;
 }
@@ -27,6 +34,12 @@
 .text {
     font-size: 20pt;
 }
+
+.line {
+    border-bottom: 1px solid #000; /* Параметры линии */
+   }
+
+.nav {color:#C6AB6C}
 
 #right { text-align: right; }
 

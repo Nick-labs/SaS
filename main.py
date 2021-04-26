@@ -1,13 +1,10 @@
-from flask import Flask, render_template, request, redirect, url_for, abort, make_response, jsonify
-from flask_restful import reqparse, abort, Api, Resource
-from flask_login import LoginManager, login_user, logout_user, login_required, current_user
-from flask_sqlalchemy import SQLAlchemy
-from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField
-from wtforms.validators import DataRequired
 import random
 
-from data import db_session, jobs_api, jobs_resources
+from flask import Flask, render_template, request, redirect, abort
+from flask_login import LoginManager, login_user, logout_user, login_required, current_user
+from flask_restful import abort, Api
+
+from data import db_session, jobs_resources
 from data.jobs import Jobs
 from data.users import User
 from forms.jobs import JobsForm
