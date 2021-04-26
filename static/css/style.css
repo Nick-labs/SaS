@@ -1,0 +1,33 @@
+.jjob {
+    color: green;
+}
+
+
+.lt {
+    text-align:left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.rt {
+    text-align:right;
+    margin-right: 15px;
+}
+
+.ct {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align:center;
+}
+
+.bt {
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 20pt;
+}
+
+#right { text-align: right; }
+
+#pad = {padding: 20px 0 0 20px;}

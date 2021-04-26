@@ -1,0 +1,364 @@
+{
+  "jobs": [
+    {
+      "contacts": "+79211579013",
+      "content": "description 0",
+      "salary": 70000,
+      "title": "Вакансия 0",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79700354305",
+      "content": "description 1",
+      "salary": 24000,
+      "title": "Вакансия 1",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79182833278",
+      "content": "description 2",
+      "salary": 71000,
+      "title": "Вакансия 2",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79433850818",
+      "content": "description 3",
+      "salary": 37000,
+      "title": "Вакансия 3",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79160331015",
+      "content": "description 4",
+      "salary": 22000,
+      "title": "Вакансия 4",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79584794922",
+      "content": "description 5",
+      "salary": 74000,
+      "title": "Вакансия 5",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79857793373",
+      "content": "description 6",
+      "salary": 55000,
+      "title": "Вакансия 6",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79285440429",
+      "content": "description 7",
+      "salary": 81000,
+      "title": "Вакансия 7",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79916987044",
+      "content": "description 8",
+      "salary": 95000,
+      "title": "Вакансия 8",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79510264956",
+      "content": "description 9",
+      "salary": 96000,
+      "title": "Вакансия 9",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79182945261",
+      "content": "description 10",
+      "salary": 70000,
+      "title": "Вакансия 10",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79294703622",
+      "content": "description 11",
+      "salary": 96000,
+      "title": "Вакансия 11",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79664058080",
+      "content": "description 12",
+      "salary": 89000,
+      "title": "Вакансия 12",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79818553185",
+      "content": "description 13",
+      "salary": 44000,
+      "title": "Вакансия 13",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79517138278",
+      "content": "description 14",
+      "salary": 41000,
+      "title": "Вакансия 14",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79603601956",
+      "content": "description 15",
+      "salary": 54000,
+      "title": "Вакансия 15",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79714766707",
+      "content": "description 16",
+      "salary": 98000,
+      "title": "Вакансия 16",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79467713272",
+      "content": "description 17",
+      "salary": 78000,
+      "title": "Вакансия 17",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79820030866",
+      "content": "description 18",
+      "salary": 93000,
+      "title": "Вакансия 18",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79429887318",
+      "content": "description 19",
+      "salary": 41000,
+      "title": "Вакансия 19",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79512787932",
+      "content": "description 20",
+      "salary": 65000,
+      "title": "Вакансия 20",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79433611803",
+      "content": "description 21",
+      "salary": 33000,
+      "title": "Вакансия 21",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79202678826",
+      "content": "description 22",
+      "salary": 38000,
+      "title": "Вакансия 22",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79551843817",
+      "content": "description 23",
+      "salary": 72000,
+      "title": "Вакансия 23",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79750290121",
+      "content": "description 24",
+      "salary": 90000,
+      "title": "Вакансия 24",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79753215247",
+      "content": "description 25",
+      "salary": 72000,
+      "title": "Вакансия 25",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79619883225",
+      "content": "description 26",
+      "salary": 60000,
+      "title": "Вакансия 26",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79993526998",
+      "content": "description 27",
+      "salary": 45000,
+      "title": "Вакансия 27",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79201615340",
+      "content": "description 28",
+      "salary": 61000,
+      "title": "Вакансия 28",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79599980028",
+      "content": "description 29",
+      "salary": 69000,
+      "title": "Вакансия 29",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79509886802",
+      "content": "description 30",
+      "salary": 57000,
+      "title": "Вакансия 30",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79823613457",
+      "content": "description 31",
+      "salary": 99000,
+      "title": "Вакансия 31",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79861662986",
+      "content": "description 32",
+      "salary": 21000,
+      "title": "Вакансия 32",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79131890747",
+      "content": "description 33",
+      "salary": 40000,
+      "title": "Вакансия 33",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79276271069",
+      "content": "description 34",
+      "salary": 21000,
+      "title": "Вакансия 34",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79183918527",
+      "content": "description 35",
+      "salary": 24000,
+      "title": "Вакансия 35",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79516508187",
+      "content": "description 36",
+      "salary": 80000,
+      "title": "Вакансия 36",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79338253398",
+      "content": "description 37",
+      "salary": 33000,
+      "title": "Вакансия 37",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79443264391",
+      "content": "description 38",
+      "salary": 93000,
+      "title": "Вакансия 38",
+      "user": {
+        "name": "a"
+      }
+    },
+    {
+      "contacts": "+79155009671",
+      "content": "description 39",
+      "salary": 77000,
+      "title": "Вакансия 39",
+      "user": {
+        "name": "a"
+      }
+    }
+  ]
+}

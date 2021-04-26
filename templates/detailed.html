@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<h1>Подробнее</h1>
+<br>
+
+<div class="col-md6 border">
+    <h1 class="lt">{{job.title}}</h1>
+    <h3 class="lt">от {{job.salary}} руб<br>
+        Работодатель - {{job.user.name if job.user.name else "?"}}<br>
+        Контакты: {{ job.contacts }}</h3>
+    <div class="lt bt text">{{ job.content }}</div>
+
+    {% if current_user.is_authenticated and current_user == job.user %}
+    <div class="bt lt">
+        <a href="/jobs/{{ job.id }}" class="btn btn-warning">
+            Изменить
+        </a>
+        <a href="/jobs_delete/{{ job.id }}" class="btn btn-danger">
+            Удалить
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="ct">
+    <a href="/page/1" class="btn btn-secondary">Назад</a>
+</div>
+
+{% endblock %}

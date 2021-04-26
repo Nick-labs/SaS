@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<h1>Вакансии</h1>
+<br>
+
+{% if current_user.is_authenticated %}
+<a href="/jobs" class="btn btn-secondary bt">Добавить вакансию</a><br>
+{% endif %}
+
+{% if page %}
+{% set jobs = jobs[(page - 1) * 10:page * 10] %}
+{% endif %}
+
+{% for item in jobs%}
+<div class="col-md6 border">
+    <h1 class="lt">{{item.title}}</h1>
+    <h3 class="rt">от {{item.salary}} руб</h3>
+    <div class="rt bt">
+        <a href="/job/{{ item.id }}" class="btn btn-primary">Подробнее</a>
+
+    {% if current_user.is_authenticated and current_user == item.user %}
+        <a href="/jobs/{{ item.id }}" class="btn btn-warning">
+            Изменить
+        </a>
+        <a href="/jobs_delete/{{ item.id }}" class="btn btn-danger">
+            Удалить
+        </a>
+    {% endif %}
+    </div>
+
+</div>
+{% endfor %}
+
+<div class="ct">
+    {% if page > 1 %}
+    <a href="/page/{{ page - 1 }}" class="btn btn-secondary">Назад</a>
+    {% endif %}
+    {% if ((page) * 10 < len_jobs) or (page == 0) %}
+    <a href="/page/{{ page + 1 }}" class="btn btn-secondary">Вперед</a>
+    {% endif %}
+</div>
+
+{% endblock %}
